@@ -372,8 +372,7 @@ void MainWindow::on_outputFile_clicked() {
     setOutputFilename(_outputFilename);
 }
 
-void MainWindow::
-(QString filename) {
+void MainWindow::setOutputFilename(QString filename) {
     if (filename.isEmpty()) return;
 
     outputFilename = filename;
